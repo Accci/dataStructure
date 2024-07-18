@@ -91,7 +91,7 @@ x(r)新插					x(r)新插							D(b)
 					   D(b)	 E(b)						  B(b)  D(b)	
 														(delete)
 */
-
+#if 0
 template<typename T>
 class RBTree
 {
@@ -509,6 +509,8 @@ int main()
 	rb.remove(9);
 	rb.remove(10);
 	rb.remove(5);
-	//rb.remove(3);
+	rb.remove(3);
 	return 0;
 }
+
+#endif

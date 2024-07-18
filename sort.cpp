@@ -1,5 +1,6 @@
 #include "common.h"
 
+#if 0
 void bubbleSort(int arr[], int size);
 void choiceSort(int arr[], int size);
 void insertSort(int arr[], int size);
@@ -511,7 +512,7 @@ void radixSort(int arr[], int size)
 		int idx = 0;
 		for (auto vec : vecs)
 		{
-			for (auto v : vec)
+			for (int v : vec)
 			{
 				
 				arr[idx++] = v;
@@ -521,3 +522,5 @@ void radixSort(int arr[], int size)
 		vecs.clear();
 	}
 }
+
+#endif
